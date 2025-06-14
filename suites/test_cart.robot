@@ -34,4 +34,3 @@ Product Should Be Removable From Cart
     Wait For Elements State    xpath=//div[text()='Sauce Labs Backpack']    detached    10s
     [Teardown]    Close Browser
 
-# ...existing code for more test cases if needed...
