@@ -78,4 +78,3 @@ Check Cart Total Price Equals Subtotal Plus Tax
     Should Be True    abs(${subtotal} + ${tax} - ${total}) < 0.01    Subtotal + Tax != Total: ${subtotal} + ${tax} != ${total}
     [Teardown]    Close Browser
 
-# ...existing code for more test cases if needed...
