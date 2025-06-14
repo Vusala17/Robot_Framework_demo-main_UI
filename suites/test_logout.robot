@@ -28,4 +28,3 @@ Logout Ends Session
     Wait For Elements State    id=user-name    visible    10s
     [Teardown]    Close Browser
 
-# ...existing code for more test cases if needed...
