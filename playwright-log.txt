@@ -1,0 +1,64 @@
+{"level":30,"time":"2025-06-14T16:57:21.558Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Listening on 127.0.0.1:52371"}
+(node:13628) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-14T16:57:21.705Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-14T16:57:21.804Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-06-14T16:57:21.804Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-14T16:57:21.804Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-14T16:57:21.809Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-14T16:57:21.809Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-14T16:57:21.819Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Changed active context"}
+{"level":30,"time":"2025-06-14T16:57:21.881Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-14T16:57:21.882Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Changed active page"}
+{"level":30,"time":"2025-06-14T16:57:23.143Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-14T16:57:23.165Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-06-14T16:57:23.204Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method goTo"}
+{"level":30,"time":"2025-06-14T16:57:23.207Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-14T16:57:23.207Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2025-06-14T16:57:23.231Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-14T16:57:23.234Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-14T16:57:23.234Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-06-14T16:57:23.242Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-14T16:57:23.245Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2025-06-14T16:57:23.245Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-14T16:57:23.314Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method click"}
+{"level":30,"time":"2025-06-14T16:57:23.319Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-14T16:57:23.319Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Strict mode is enabled, find Locator with data-test=error in page."}
+{"level":30,"time":"2025-06-14T16:57:23.324Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-14T16:57:23.328Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-14T16:57:23.328Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Strict mode is enabled, find Locator with data-test=error in page."}
+{"level":30,"time":"2025-06-14T16:57:23.351Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Retrieved text for element data-test=error containing Epic sadface: Username and password do not match any user in this service"}
+{"level":30,"time":"2025-06-14T16:57:23.351Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-14T16:57:23.356Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-14T16:57:23.360Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Removed page=4cd35b86-b275-4601-835c-87695992ee49 from context=23ca09d9-758f-4cc4-a81f-ef2d8d2780df page stack"}
+{"level":30,"time":"2025-06-14T16:57:23.432Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\index.js:13122:59)
+    at PlaywrightServer.setTimeout (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\index.js:13370:57)
+    at Object.onReceiveHalfClose (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-14T16:57:23.451Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-14T16:57:23.451Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\index.js:13122:59)
+    at PlaywrightServer.setTimeout (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\index.js:13370:57)
+    at Object.onReceiveHalfClose (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (c:\Users\LENOVO\Downloads\robot_framework_demo-main (4)\robot_framework_demo-main\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-14T16:57:23.472Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-14T16:57:23.472Z","pid":13628,"hostname":"LAPTOP-OUOCR53B","msg":"End of node method getBrowserCatalog"}
